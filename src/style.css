@@ -2,6 +2,7 @@ body {
   font-family:'Courier New', Courier, monospace;
   font-size:x-large;
   text-align:center;
+  background-color: black;
 }
 
 .explanation {
@@ -9,10 +10,18 @@ body {
   text-align: center;
   padding-left:100px;
   padding-right: 100px;
+  color: white;
 }
 
 .title {
   font-size: x-large;
   text-align: center;
   padding-top: 50px;
+  color: white;
+}
+
+img, iframe, video {
+  align-self: center;
+  border-radius: 16px;
+  border: 3px solid white;
 }
