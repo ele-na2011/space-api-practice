@@ -9,5 +9,4 @@ fetch(`https://api.nasa.gov/planetary/apod?api_key=${API_KEY}`)
       <h1>${data.title}</h1>
       <img src="${data.url}" alt="${data.title}" />
       <p>${data.explanation}</p>
-    `;
-  }
+    `})
